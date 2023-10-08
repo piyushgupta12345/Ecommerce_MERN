@@ -57,7 +57,7 @@ export const registerController = async (req, res) => {
 };
 
 //POST LOGIN
-/*export const loginController = async (req, res) => {
+export const loginController = async (req, res) => {
   try {
     const { email, password } = req.body;
     //validation
@@ -109,7 +109,7 @@ export const registerController = async (req, res) => {
 };
 
 //test controller
-export const testController = (req, res) => {
+/*export const testController = (req, res) => {
   try {
     res.send("Protected Routes");
   } catch (error) {
